@@ -1,0 +1,25 @@
+----------------------------------------
+iK-readMe:
+----------------------------------------
+- this project is created by stephen in his advance react course back in 2016.
+- there are two folders within: client / server
+	- you will need to 'npm install && npm start' for it to run.
+- I do not know if the project fully works because I have yet to test it out.
+- you can check out your doc note3 for more info how he did it. Also you can watch his track videos if you want more understanding.
+
+----------------------------------------
+iK-take aways from this:
+----------------------------------------
+- skim on the overall /server project in particulary because he creates a full server from start to finish. And there are some interesting things which could give you a better insight when you start to move to backend developing.
+	- the /client project is not so important because you know most of what is going on.
+
+----------------------------------------
+/client folder
+----------------------------------------
+- 
+
+----------------------------------------
+/server folder
+----------------------------------------
+- 
+

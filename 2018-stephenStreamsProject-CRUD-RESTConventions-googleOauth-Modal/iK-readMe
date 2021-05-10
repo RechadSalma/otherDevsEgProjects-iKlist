@@ -1,0 +1,42 @@
+----------------------------------------
+iK-readMe:
+----------------------------------------
+- this project is created by stephen in his react course back in 2018.
+- there are three folders within: api / client / rtmpServer
+	- you will need to 'npm install && npm start' for it to run.
+- the projects does not work fully, not sure why but the main CRUD mostly work and the structure is what you should pay attention to.
+- I wrote down notes quickly so not everything is perfect and you can add along the way if you want to.
+
+----------------------------------------
+iK-take aways from this:
+----------------------------------------
+- skim on the overall project and look at the CRUD / REST conventions / modal part mostly as that is the big takeaway for future references when you do real projects.
+	- this will also give you an idea how spa folder layout can look like.
+- the project is a live streaming project where you can watch streams, log in to your google account to watch your exclusive stream videos, create streams videos, edit stream video, delete stream videos, etc...
+	- You would be using the OBS desktop interface to upload your live streams.
+	- many things are not perfect and this is just a simple project to give you an idea what CRUD / REST convention / oAuth looks like. However there is still many issues like security / etc...
+- stephen used react / react-router / google oAuth browser library / flv.js / redux / semantic-ui / redux-form / etc...
+
+- use this to give you a good idea of how CRUD and REST convention works.
+	- with the use of react-router and redux.
+- normally the modal would not have its own react-router path as stephen did here. Usually it would be just a normal imported component that you display with true or false.
+	- or you could use a 3rd party library modal instead.
+
+----------------------------------------
+/api folder
+----------------------------------------
+- this is the mock backend database server folder we need for the REST convention.
+	- we are using the JSON-Server library.
+
+----------------------------------------
+/client folder
+----------------------------------------
+- this is the main folder for doing all the coding. including CRUD / REST conventions / google oAuth / modal
+
+----------------------------------------
+/rtmpserver folder
+----------------------------------------
+- this folder provides a rtmp server for taking in the OBS live streaming api so we can ajax it.
+	- using the Node-Media-Server library to create the rtmp server.
+	- the rtmp server is required for live streaming media.
+
